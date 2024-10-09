@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+
+   
+}
+nav{
+
+    display: flex;
+}
+p a{
+    font-family: "PT Sans Caption", sans-serif;
+    color: #000;
+    
+}
+
+span:hover{
+    border-bottom: 1px solid black;
+         
+        
+}
+h4 a{
+    font-family: "PT Serif", serif;
+    font-weight: 800;
+    font-size:20.8838px ;
+    color: #000;
+
+}
+p{
+    font-family: "PT Sans Caption", sans-serif,;
+    color: #000;
+
+}
+
+.milonavigation ul{
+    
+    display: flex;
+    text-decoration:none ;
+    list-style-type: none;
+    gap: 14px;
+}
+.milonavigation ul li a{
+    text-decoration: none;
+    color:rgb(145, 141, 141);
+}
+.head h1 a{
+    text-decoration: none;
+    text-align: center;
+}
+.about_link{
+    display: flex;
+    gap: 12px;
+}
+.about_link p a{
+    text-decoration: none;
+    color: rgb(145, 141, 141);
+}
+.btn{
+    background-color: white;
+    outline:  gainsboro;
+}
+.input{
+    width: 8rem;
+    border-radius: 12px;
+    border: 2px solid rgb(233, 226, 226) ;
+}
+.input:focus{
+    
+    width: 12rem;
+}
+.input::before{
+ content: "Enter your search query here ";
+ 
+}
+.image_1animate{
+    transition: 200ms ease;
+
+}
+.image_1animate:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 6px  19px rgb(151, 146, 146)  ;
+}
+.back_white{
+    background-color: red;
+}
+.dance{
+    background-color: #f2f4f5;
+}
+.border_light{
+    border-width: 1px;
+    border-color: #fbfeff;
+    width: 29rem;
+}
+.border_light:active{
+    outline: black;
+    border-radius: none;
+}
+.btn{
+    background-color: #656a6e;
+    border-radius: none;
+    color: white;
+}
+.btn:hover{
+    background-color:#5b5d5f ;
+    color: white;
+}
+@media (max-width:768px){
+    .milonavigation{
+        display: none;
+    }
+   .Button_group{
+    display: none;
+   }
+   .border_light{
+       width: 100%;
+   }
+
+}

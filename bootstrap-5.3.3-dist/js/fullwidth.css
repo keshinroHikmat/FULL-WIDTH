@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+
+   
+}
+nav{
+
+    display: flex;
+}
+
+.milonavigation ul{
+    
+    display: flex;
+    text-decoration:none ;
+    list-style-type: none;
+    gap: 14px;
+}
+.milonavigation ul li a{
+    text-decoration: none;
+    color:rgb(145, 141, 141);
+}
+.head h1 a{
+    text-decoration: none;
+    text-align: center;
+}
+.about_link{
+    display: flex;
+    gap: 12px;
+}
+.about_link p a{
+    text-decoration: none;
+    color: rgb(145, 141, 141);
+}
+.input{
+    width: 8rem;
+    border-radius: 12px;
+    border: 2px solid rgb(233, 226, 226) ;
+}
+span:hover{
+    border-bottom: 1px solid black;
+}
+
+.input:focus{
+    
+    width: 12rem;
+}
+.input::before{
+ content: "Enter your search query here ";
+ }
+@media (max-width:768px){
+    .milonavigation{
+        display: none;
+    }
+   .Button_group{
+    display: none;
+   }
+   .border_light{
+       width: 100%;
+   }
+}
+.image_1animate{
+    transition: 200ms ease;
+
+}
+.image_1animate:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 6px  19px rgb(151, 146, 146)  ;
+}
+
+.ancor a{
+    gap: 6px;
+    font-size: 75%;
+    font-weight: 700;
+    background-color: rgb(215, 217, 218);
+    border-color:rgb(242, 244, 245) ;
+}
+h4 a{
+    color: black;
+    font-family: "PT Serif", serif;
+    font-weight: 800;
+    font-size:20.8838px ;
+   
+}
+.position img{
+    position: sticky;
+}
+p a{
+    color: #000;
+    font-family: "PT Sans Caption", sans-serif;
+}
+.dance{
+    background-color: #f2f4f5;
+    padding-bottom: 100px;
+}
+.border_light{
+    border-width: 1px;
+    border-color: #fbfeff;
+    width: 29rem;
+}
+.border_light:active{
+    outline: black;
+    border-radius: none;
+}
+.btn{
+    background-color: #656a6e;
+    border-radius: none;
+    color: white;
+}
+.btn:hover{
+    background-color:#5b5d5f ;
+    color: white;
+}
+h5{
+    color: black;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size:20.8792px ;
+    text-align: center;
+   
+}
+.fold{
+    text-align: center;
+}
+.images{
+    display: flex;
+    position: relative;
+    transition: all 25s ease-in-out;
+    
+
+ }
+ .background_next li a{
+    color: #555d65;
+    border-right: 1px soild #495057;
+    
+ }
+ .background_next li a:hover{
+color: #fff;
+ }
+ .style_div{
+    margin-left: 500px;
+    margin-right: 500px;
+ }
+ .DAILING{
+    color: #555d65;
+    text-align: center;
+ }
+
